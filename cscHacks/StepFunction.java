@@ -27,7 +27,10 @@ public class StepFunction
 	Station Apps = new Station(3);
 	Station Garnish = new Station(4);
 	
-	
+	public void addWorker(Worker joeb)
+    {
+    	employees.add(joeb);
+    }
 
 	public StepFunction()
 	{
