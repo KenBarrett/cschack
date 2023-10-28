@@ -1,4 +1,4 @@
-package cschacksClasses;
+package cscHacks;
 
 public class Station 
 {
