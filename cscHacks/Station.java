@@ -1,4 +1,4 @@
-package cschacksClasses;
+package cscHacks;
 
 public class Station 
 {
@@ -12,5 +12,8 @@ public class Station
         this.WORKLOAD= Workload;
     	
     }
+    
+    
+    
 
 }
