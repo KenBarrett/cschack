@@ -1,5 +1,5 @@
-public class Worker {
-    // Member variables
+package cscHacks;
+public class Worker{
     private String name;
     private int age;
     private String jobTitle;
