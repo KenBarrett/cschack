@@ -1,5 +1,7 @@
 package cscHacks;
 
+import java.util.ArrayList;
+
 public class Main 
 {
 	private static int money = 10000;
@@ -7,12 +9,23 @@ public class Main
 	public int count= 0;
 	public boolean dayIsOver= false;
 	public int dayNumber= 0;
+	private int ordersInDay= 10;
+	public boolean customerSatisfied= false;
+	ArrayList<Worker> employees = new ArrayList<Worker>();
 	
 	
+	Station Dessert = new Station(0);
+	Station Meat = new Station(2);
+	Station Fish = new Station(1);
+	Station Apps = new Station(3);
+	Station Garnish = new Station(4);
 	
 	
-	
-	
+
+	public Main()
+	{
+		Worker joe1 = new Worker()
+	}
 	
 	public void step()
 	{
@@ -22,6 +35,10 @@ public class Main
 			count =0;
 		}
 		
+		for(int i = 0; i< employees.size(); i++)
+		{
+			
+		}
 		
 		
 	}
