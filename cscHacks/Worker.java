@@ -9,7 +9,10 @@ public class Worker
     public int GarnishSpeed = 4;
     public boolean isHeadChef = false;
 
-
+    public Worker()
+    {
+    	
+    }
 
     public Worker(int joe)
     {
