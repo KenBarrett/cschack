@@ -37,9 +37,9 @@ public class StepFunction
 		Worker joe1 = new Worker();
 		Worker bo1= new Worker();
 		Worker HeadChef = new Worker(1);
-		this.employees.add(joe1);
-		employees.add(bo1);
-		employees.add(HeadChef);
+		this.addWorker(joe1);
+		this.addWorker(bo1);
+		this.addWorker(HeadChef);
 		
 		for(Worker i : employees)
 		{
