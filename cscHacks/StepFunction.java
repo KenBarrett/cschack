@@ -12,6 +12,7 @@ public class StepFunction
 	private int ordersInDay= 10;
 	public boolean customerSatisfied= false;
 	ArrayList<Worker> employees = new ArrayList<Worker>();
+	private int employeesPay=0;
 	public int DessertWork = ordersInDay;
 	public int workRequired= 5;// work per hour needed
 	public int totalWorkLeft = 0;//work remaining
@@ -40,6 +41,7 @@ public class StepFunction
 		for(Worker i : employees)
 		{
 			workForce +=i.getAppsSpeed();
+			employeesPay+=i.getPay();
 		}
 		
 		Stations.add(Dessert);
@@ -58,6 +60,11 @@ public class StepFunction
 		{
 			
 			dayNumber++;
+			money-= employees.
+			if(customerSatisfied)
+			{
+				money+=workRequired*100;
+			}
 			count =0;
 		}
 		while(count<stepsPerDay-1)
