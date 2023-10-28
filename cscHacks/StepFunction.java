@@ -81,6 +81,12 @@ public class StepFunction
 			totalWorkLeft-=workForce;
 			if(totalWorkLeft<=workRequired)
 			{
+				customerSatisfied =true;
+				workRequired+=1;
+			}
+			else
+			{
+				customerSatisfied = false;
 				
 			}
 				
