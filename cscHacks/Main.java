@@ -24,7 +24,12 @@ public class Main
 
 	public Main()
 	{
-		Worker joe1 = new Worker()
+		Worker joe1 = new Worker();
+		Worker bo1= new Worker();
+		Worker HeadChef = new Worker("Head Chef");
+		this.employees.add(joe1);
+		employees.add(bo1);
+		employees.add(HeadChef);
 	}
 	
 	public void step()
