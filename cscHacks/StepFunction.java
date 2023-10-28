@@ -55,7 +55,7 @@ public class StepFunction
 	{
 		if(dayIsOver)
 		{
-			if(workRequired)
+			
 			dayNumber++;
 			count =0;
 		}
@@ -63,7 +63,7 @@ public class StepFunction
 		int joe = workRequired-workForce;
 		if(workRequired <=0)
 		{
-			workRequired = 0;
+			
 			dayIsOver = true;
 		}
 		
