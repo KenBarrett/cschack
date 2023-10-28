@@ -14,9 +14,9 @@ public class Worker
 	{
 		
 	}
-	public Worker(String joe)
+	public Worker(int joe)
 	{
-		if(joe.equals("Head Chef"))
+		if(joe==1)
 		{
 			this.DessertSpeed=8;
 			this.MeatSpeed=8;

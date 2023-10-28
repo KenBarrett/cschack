@@ -13,7 +13,8 @@ public class StepFunction
 	public boolean customerSatisfied= false;
 	ArrayList<Worker> employees = new ArrayList<Worker>();
 	public int DessertWork = ordersInDay;
-	public int workRequired=10*5;
+	public int workRequired=ordersInDay*5;
+	public int workForce=0;
 	
 	
 	ArrayList<Station> Stations= new ArrayList<Station>();
@@ -30,10 +31,15 @@ public class StepFunction
 	{
 		Worker joe1 = new Worker();
 		Worker bo1= new Worker();
-		Worker HeadChef = new Worker("Head Chef");
+		Worker HeadChef = new Worker(1);
 		this.employees.add(joe1);
 		employees.add(bo1);
 		employees.add(HeadChef);
+		
+		for(Worker i : employees)
+		{
+			workForce +=i.AppsSpeed;
+		}
 		
 		Stations.add(Dessert);
 		Stations.add(Meat);
@@ -41,14 +47,24 @@ public class StepFunction
 		Stations.add(Apps);
 		Stations.add(Garnish);
 		
+		
+		
 	}
 	
 	public void step()
 	{
 		if(dayIsOver)
 		{
+			if(workRequired)
 			dayNumber++;
 			count =0;
+		}
+		
+		int joe = workRequired-workForce;
+		if(workRequired <=0)
+		{
+			workRequired = 0;
+			dayIsOver = true;
 		}
 		
 		
