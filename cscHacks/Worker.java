@@ -8,11 +8,13 @@ public class Worker
     private int AppsSpeed = 4;
     private int GarnishSpeed = 4;
     private boolean isHeadChef = false;
+
     private int pay;
 
     public Worker(){
         this.pay = 50;
     }
+
     public Worker(int joe)
     {
         if(joe==1)
