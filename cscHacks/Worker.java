@@ -1,4 +1,5 @@
 package cscHacks;
+<<<<<<< HEAD
 public class Worker{
     private String name;
     private int age;
@@ -66,4 +67,35 @@ public class Worker{
         Worker worker = new Worker("John Doe", 30, "Software Developer", 25.0);
         worker.displayWorkerInfo();
     }
+=======
+
+public class Worker 
+{
+	public int DessertSpeed = 4;
+	public int MeatSpeed = 4;
+	public int FishSpeed = 4;
+	public int AppsSpeed = 4;
+	public int GarnishSpeed = 4;
+	public boolean isHeadChef = false;
+	
+	
+	public Worker() 
+	{
+		
+	}
+	public Worker(String joe)
+	{
+		if(joe.equals("Head Chef"))
+		{
+			this.DessertSpeed=8;
+			this.MeatSpeed=8;
+			this.FishSpeed=8;
+			this.AppsSpeed =8;
+			this.GarnishSpeed=8;
+			this.isHeadChef= true;
+
+		}
+	}
+	
+>>>>>>> bf149a2c7cc28de65aeb789a49b1cd1cb4904012
 }
