@@ -8,17 +8,10 @@ public class Worker
     private int AppsSpeed = 4;
     private int GarnishSpeed = 4;
     private boolean isHeadChef = false;
-
-<<<<<<< HEAD
+    private int pay;
 
     public Worker(){
-=======
-    public Worker()
-    {
-    	
-    }
->>>>>>> 398a8a47eb8cd20bd7bbfc65ac1809aafc5e2256
-
+        this.pay = 50;
     }
     public Worker(int joe)
     {
@@ -30,7 +23,7 @@ public class Worker
             this.AppsSpeed=8;
             this.GarnishSpeed=8;
             this.isHeadChef= true;
-
+            this.pay = 100;
         }
     }
     public int getDessertSpeed() {
@@ -51,6 +44,9 @@ public class Worker
 
     public int getGarnishSpeed() {
         return GarnishSpeed;
+    }
+    public int getPay(){
+        return pay;
     }
 
     public boolean isHeadChef() {
