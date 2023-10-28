@@ -2,7 +2,7 @@ package cscHacks;
 
 import java.util.ArrayList;
 
-public class Main 
+public class StepFunction 
 {
 	private static int money = 10000;
 	private static int stepsPerDay = 10;
@@ -12,7 +12,11 @@ public class Main
 	private int ordersInDay= 10;
 	public boolean customerSatisfied= false;
 	ArrayList<Worker> employees = new ArrayList<Worker>();
+	public int DessertWork = ordersInDay;
+	public int workRequired=10*5;
 	
+	
+	ArrayList<Station> Stations= new ArrayList<Station>();
 	
 	Station Dessert = new Station(0);
 	Station Meat = new Station(2);
@@ -22,7 +26,7 @@ public class Main
 	
 	
 
-	public Main()
+	public StepFunction()
 	{
 		Worker joe1 = new Worker();
 		Worker bo1= new Worker();
@@ -30,6 +34,13 @@ public class Main
 		this.employees.add(joe1);
 		employees.add(bo1);
 		employees.add(HeadChef);
+		
+		Stations.add(Dessert);
+		Stations.add(Meat);
+		Stations.add(Fish);
+		Stations.add(Apps);
+		Stations.add(Garnish);
+		
 	}
 	
 	public void step()
@@ -40,10 +51,7 @@ public class Main
 			count =0;
 		}
 		
-		for(int i = 0; i< employees.size(); i++)
-		{
-			
-		}
+		
 		
 		
 	}

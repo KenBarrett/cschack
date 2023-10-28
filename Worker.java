@@ -3,9 +3,10 @@ public class Worker {
     private String name;
     private int speed = 60;
 
-}
 
-public static void main(){
+
+public static void main(String[] args){
     Worker slave1 = new Worker();
-    System.out.println(slave1.speed)
+    System.out.println(slave1.speed);
+}
 }
