@@ -60,10 +60,11 @@ public class StepFunction
 		{
 			
 			dayNumber++;
-			money-= employees.
+			money-= employeesPay;
 			if(customerSatisfied)
 			{
 				money+=workRequired*100;
+				workRequired+=1;
 			}
 			count =0;
 		}
@@ -89,7 +90,6 @@ public class StepFunction
 			if(totalWorkLeft<=workRequired)
 			{
 				customerSatisfied =true;
-				workRequired+=1;
 			}
 			else
 			{
