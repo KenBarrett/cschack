@@ -9,17 +9,14 @@ public class Worker
     private int GarnishSpeed = 4;
     private boolean isHeadChef = false;
 
-<<<<<<< HEAD
 
-    public Worker(){
-=======
+
+
     public Worker()
     {
     	
     }
->>>>>>> 398a8a47eb8cd20bd7bbfc65ac1809aafc5e2256
 
-    }
     public Worker(int joe)
     {
         if(joe==1)
