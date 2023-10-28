@@ -39,7 +39,7 @@ public class StepFunction
 		
 		for(Worker i : employees)
 		{
-			workForce +=i.AppsSpeed;
+			workForce +=i.getAppsSpeed();
 		}
 		
 		Stations.add(Dessert);
