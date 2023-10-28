@@ -66,6 +66,10 @@ public class StepFunction
 				money+=workRequired*100;
 				workRequired+=1;
 			}
+			else
+			{
+				money+=workRequired*30;
+			}
 			count =0;
 		}
 		while(count<stepsPerDay-1)

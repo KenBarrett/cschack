@@ -1,5 +1,7 @@
 package cscHacks;
 
+import java.util.ArrayList;
+
 public class Worker 
 {
     private int DessertSpeed = 4;
@@ -8,11 +10,16 @@ public class Worker
     private int AppsSpeed = 4;
     private int GarnishSpeed = 4;
     private boolean isHeadChef = false;
+    ArrayList<Worker> employees = new ArrayList<Worker>();
 
     private int pay;
 
     public Worker(){
         this.pay = 50;
+    }
+    public void addWorker(Worker joeb)
+    {
+    	employees.add(joeb);
     }
 
     public Worker(int joe)
