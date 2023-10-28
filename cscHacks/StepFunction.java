@@ -13,7 +13,8 @@ public class StepFunction
 	public boolean customerSatisfied= false;
 	ArrayList<Worker> employees = new ArrayList<Worker>();
 	public int DessertWork = ordersInDay;
-	public int workRequired=ordersInDay*5;
+	public int workRequired= 5;// work per hour needed
+	public int totalWorkLeft = 0;//work remaining
 	public int workForce=0;
 	
 	
@@ -59,16 +60,32 @@ public class StepFunction
 			dayNumber++;
 			count =0;
 		}
+		while(count<stepsPerDay-1)
+		{
+		
 		
 		int joe = workRequired-workForce;
-		if(workRequired <=0)
+		if(joe <=0)
 		{
 			
-			dayIsOver = true;
+			return;
+		}
+		else if(joe>0)
+		{
+			totalWorkLeft +=joe;
 		}
 		
-		
-		
+		}
+		if(count==stepsPerDay-1)
+		{
+			totalWorkLeft-=workForce;
+			if(totalWorkLeft<=workRequired)
+			{
+				
+			}
+				
+		}
+		count++;
 		
 	}
 	
