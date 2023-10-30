@@ -30,6 +30,7 @@ public class StepFunction
 	public void addWorker(Worker joeb)
     {
     	employees.add(joeb);
+    	employeesPay+=joeb.getPay();
     }
 
 	public StepFunction()
@@ -44,7 +45,7 @@ public class StepFunction
 		for(Worker i : employees)
 		{
 			workForce +=i.getAppsSpeed();
-			employeesPay+=i.getPay();
+			
 		}
 		
 		Stations.add(Dessert);
@@ -66,8 +67,8 @@ public class StepFunction
 			money-= employeesPay;
 			if(customerSatisfied)
 			{
-				money+=workRequired*100;
 				workRequired+=1;
+				money+=workRequired*100;
 			}
 			else
 			{
