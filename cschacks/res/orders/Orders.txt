@@ -1,0 +1,64 @@
+Day
+ScallopsandSteak 15 15 0 0 40
+PotatoesandSteak 0 15 0 15 30
+SaladandCake 0 0 15 15 30
+Wellingtonandtacos 0 40 0 0 50
+TartareandScallops 15 15 0 0 30
+ScallopsandSteak 15 15 0 0 40
+SaladandCake 0 0 15 15 30
+Wellingtonandtacos 0 40 0 0 50
+Day
+SaladandCake 0 0 15 15 30
+Wellingtonandtacos 0 40 0 0 50
+TartareandScallops 15 15 0 0 30
+PotatoesandSteak 0 15 0 15 30
+Wellingtonandtacos 0 40 0 0 50
+ScallopsandSteak 15 15 0 0 40
+ScallopsandSteak 15 15 0 0 40
+Wellingtonandtacos 0 40 0 0 50
+SaladandCake 0 0 15 15 30
+ScallopsandSteak 15 15 0 0 40
+Day
+Wellingtonandtacos 0 40 0 0 50
+ScallopsandSteak 15 15 0 0 40
+ScallopsandSteak 15 15 0 0 40
+Wellingtonandtacos 0 40 0 0 50
+SaladandCake 0 0 15 15 30
+ScallopsandSteak 15 15 0 0 40
+TartareandScallops 15 15 0 0 30
+ScallopsandSteak 15 15 0 0 40
+SaladandCake 0 0 15 15 30
+PotatoesandSteak 0 15 0 15 30
+SaladandCake 0 0 15 15 30
+Wellingtonandtacos 0 40 0 0 50
+Day
+PotatoesandSteak 0 15 0 15 30
+SaladandCake 0 0 15 15 30
+Wellingtonandtacos 0 40 0 0 50
+TartareandScallops 15 15 0 0 30
+ScallopsandSteak 15 15 0 0 40
+SaladandCake 0 0 15 15 30
+ScallopsandSteak 15 15 0 0 40
+SaladandCake 0 0 15 15 30
+PotatoesandSteak 0 15 0 15 30
+SaladandCake 0 0 15 15 30
+Wellingtonandtacos 0 40 0 0 50
+TartareandScallops 15 15 0 0 30
+PotatoesandSteak 0 15 0 15 30
+Wellingtonandtacos 0 40 0 0 50
+Day
+ScallopsandSteak 15 15 0 0 40
+SaladandCake 0 0 15 15 30
+ScallopsandSteak 15 15 0 0 40
+SaladandCake 0 0 15 15 30
+PotatoesandSteak 0 15 0 15 30
+SaladandCake 0 0 15 15 30
+Wellingtonandtacos 0 40 0 0 50
+TartareandScallops 15 15 0 0 30
+PotatoesandSteak 0 15 0 15 30
+Wellingtonandtacos 0 40 0 0 50
+SaladandCake 0 0 15 15 30
+Wellingtonandtacos 0 40 0 0 50
+TartareandScallops 15 15 0 0 30
+ScallopsandSteak 15 15 0 0 40
+SaladandCake 0 0 15 15 30
