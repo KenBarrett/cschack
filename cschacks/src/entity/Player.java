@@ -28,6 +28,18 @@ public class Player extends Entity{
 		speed = 4;
 		direction = "down";
 	}
+	public int getX() {
+		return x;
+	}
+	public int getY() {
+		return y;
+	}
+	public int getSpeed() {
+		return speed;
+	}
+	public String getDirection() {
+		return direction;
+	}
 	public void getPlayerImage() {
 		try {
 			up = ImageIO.read(getClass().getResourceAsStream("/player/up.png"));
